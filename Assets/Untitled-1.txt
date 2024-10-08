@@ -1,0 +1,59 @@
+Game:
+Functions of each object:
+1. Ship
+- Moves freely.
+- Shoots with normal damage.
+- Takes damage from enemies.
+- Can have 3 lives that interact with health (value 6).
+- Whether to take damage, health loss.
+- Explodes when health and life are 0.
+- Cannot go out of the screen.
+- When colliding with an enemy, health is reduced by double the enemy's damage.
+- Can upgrade shape, firepower, and movement speed.
+2. Enemy 1
+- Shoots with 1 damage.
+- Takes damage from ships.
+- - Explodes and disappears if damage received from ships is 1.
+- Explodes and disappears when colliding with ships.
+3. Enemy 2
+- Shoots with 2 damage.
+- Takes damage from ships.
+- Explodes and disappears if damage received from ships is 2.
+- Explodes and disappears when colliding with ships.
+3. Enemy 3
+- Shoots with 3 damage. - Takes damage from ships
+- If you take 3 damage from a ship, it explodes and disappears..
+- If you collide with a ship, it explodes and disappears.
+
+As UI:
+1. setting background.
+2. The health bar is represented by a bar, and life is represented by 3 icons.
+- ship's health bar on the left top of screen
+whether ship receive damage from enemy, this bar state reduce with enemy's damage
+if the count of lives is not 1 or 0 and health bar' value is 0, bar's value increase to 6 again.
+- Ship's lives on right top of screen
+ if health bar's value 0, ship's lives reduce one.
+3. ship appear from bottom of screen.
+
+Game Flow:
+1. Ship appear from the bottom of screen with health value 1 and lives 1 and common firepower, moving speed.
+Enemies appear in 3 rows from the top of screen. There should be 
+ 11 Enemy 1 in the first row, 8 Enemy 2 in the second row, and 12 
+ Enemy in the third row.
+2. if Ship receive damage from enemy first, it is exploded.
+3. after,  stop game and alert text "GAME OVER".
+4. after 2 second, remove "Game Oever" alert  and next alert text "Do you want to replay while equiped of Samsung SSD T9? REPLAY" using panel with button named replay.
+when press the replay button, game continue with updating ship's shape , moving speed, firepower.
+Firepower's update state:
+- ship shoot the two kind of bullet.
+bullet1: The shots are powerful and pass through multiple enemies, destroying enemies. These bullets are fired from both sides of the plane. this bullet's damage is 2.
+bullet2:  The shots are powerful and destroy the enemies around the enemy contacted first according to exploding wide
+this bullet is fired from the center of the airship.
+this bullet's damage is 1.
+- the ship receive cause very little damage.
+5. after all enemies was destroyed, alert "PRAVO !" and in panel write this text "Congrats, you have finished the game un 2.27 minutes. Know that during this time, Samsung’s SSD 990 Pro with heatsink transfered 186.87GB of data." with the button named "Replay".
+when press Replay, game restart from first.
+
+I want to develop this game. If you have confident, do your best for me.
+I have to finish this game tomorrow morning. I believe you.
+and please explain step by step in detail for this elementary school student

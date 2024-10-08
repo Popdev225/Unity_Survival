@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ship
+  - Obstacle
+  - Explosion
+  - HealthBar
+  - LivePanel
+  - GameOver
+  - GSSD
+  - Samsung
+  - SpeedBar
+  - Thruster1
+  - Thruster2
+  - Bullet
+  - Ship1
+  - EmailIput
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2435451415
+    locked: 0
+  - name: UI
+    uniqueID: 1772456607
+    locked: 0
+  - name: Alert
+    uniqueID: 3246854579
+    locked: 0
+  - name: AlertImage
+    uniqueID: 1262129257
+    locked: 0
+  - name: New Layer 5
+    uniqueID: 1486106081
+    locked: 0
